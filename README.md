@@ -8,5 +8,7 @@ To use, just import it:
 from parse_ingredient_line import parse_ingredient_line
 
 parse_ingredient_line('1 1/2 cup shredded monterray jack cheese, divided')
+
 returns:
+
 {'notes': ['divided'], 'ingredient': 'shredded monterray jack cheese', 'amount': '1 1/2', 'measurement': 'cup'}
